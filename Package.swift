@@ -5,13 +5,13 @@ let package = Package(
   name: "mediasoup-client-swift",
   products: [
     .library(
-      name: "mediasoup-client-swift",
-      targets: ["mediasoup-client-swift"]),
+      name: "Mediasoup",
+      targets: ["Mediasoup"]),
   ],
   dependencies: [],
   targets: [
     .binaryTarget(
-      name: "mediasoup-client-swift",
+      name: "Mediasoup",
       path: "bin/Mediasoup.xcframework"
     )
   ]
