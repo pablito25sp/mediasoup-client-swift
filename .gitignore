@@ -9,3 +9,4 @@ playground.xcworkspace
 .build/
 build/
 Pods/
+.DS_Store
